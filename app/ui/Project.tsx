@@ -12,7 +12,7 @@ const Project = ({ project }: Props) => {
         <a href={project.link} target="_blank" className="text-blue-500">
           {project.linkName}{" "}
         </a>
-        • {project.date};
+        • {project.date}
       </div>
       <div className="w-full flex flex-col gap-2 just items-start">
         {project.description.map((point, index) => (
